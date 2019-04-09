@@ -1,4 +1,5 @@
 from pytrack import Pytrack
+# from pysense import Pysense
 from LIS2HH12 import LIS2HH12
 import pycom
 from network import LoRa
@@ -11,7 +12,7 @@ import ustruct
 py = Pytrack()
 
 # for Pysense shield
-# py = Pytrack()
+# py = Pysense()
 
 # initialize acceleration sensor
 lis = LIS2HH12(py)
