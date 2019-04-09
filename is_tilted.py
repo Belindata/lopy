@@ -1,5 +1,9 @@
+# for Pytrack shield
 from pytrack import Pytrack
+
+# for Pysense shield
 # from pysense import Pysense
+
 from LIS2HH12 import LIS2HH12
 import pycom
 from network import LoRa
